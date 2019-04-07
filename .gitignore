@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vscode
+/LibgenServer.Core/bin/Debug
+/LibgenServer.Core/obj
+/LibgenServer.Web/obj
+/.vs/LibgenServer
+/LibgenServer.Cli/bin/Debug
+/LibgenServer.Cli/obj

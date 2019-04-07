@@ -29,7 +29,7 @@ namespace LibgenServer.Web
             services.Configure<ServerConfiguration>(Configuration);
             services.AddSingleton<FileExtensionContentTypeProvider>();
             services.AddScoped<MainModel>();
-            services.AddMvc().AddJsonOptions(options =>
+            services.AddMvc().AddNewtonsoftJson(options =>
             {
                 options.SerializerSettings.ContractResolver = new DefaultContractResolver();
             });
